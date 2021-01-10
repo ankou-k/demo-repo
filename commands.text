@@ -5,8 +5,10 @@ the following commands are precedented by "git "
     shows unstaged changes in red, staged changes in green
 "rm" followed by file name - removes file (HAS NOT WORKED)
 "add" followed by file name - add files to the staging area (staging area/staged state = where the files are commited from)
-"commit -m "added commands.text" " - to save to github, -m stands for message, must inculde message eg. "update README.md" (recognize this from github?)
+"commit -m "added commands.text" " - to save to locally, -m stands for message, must inculde message eg. "update README.md" (recognize this from github?)
     can add a description by adding a second -m
+"push" - to push to github
+"--help" - list of commands
 
 
 
