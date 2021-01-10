@@ -1,0 +1,21 @@
+in terminal
+the following commands are precedented by "git "
+"clone" followed by clone link from github - clones something to git
+"status" - see modified files (must first save modifications ctrl+k s, otherwise "no changes" will show up),
+    shows unstaged changes in red, staged changes in green
+"rm" followed by file name - removes file (HAS NOT WORKED)
+"add" followed by file name - add files to the staging area (staging area/staged state = where the files are commited from)
+"commit -m "added commands.text" " - to save to github, -m stands for message, must inculde message eg. "update README.md" (recognize this from github?)
+    can add a description by adding a second -m
+
+
+
+
+command notes:
+. can be used to indicate current directory (folder) so when using that, it means doing stuff to all the files in the directory
+cd - change directory
+ctrl + k, ctrl + s to open keyboard shortcuts
+
+setup to be able to save to git hub
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
