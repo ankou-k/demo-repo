@@ -9,13 +9,16 @@ the following commands are precedented by "git "
     can add a description by adding a second -m
 "push" - to push to github
 "--help" - list of commands
+"ls" - give list of files in current directory, used to make sure in correct directory (can also use cd)
+"grep" - searches for files or keywords, might not be installed 
+"ssh-keygen" - creates ssh key that is used to upload to github, might not be installed
 
 
 
 
 command notes:
 . can be used to indicate current directory (folder) so when using that, it means doing stuff to all the files in the directory
-cd - change directory
+cd - change directory, . for file in current file, .. to move out of current file into higher up file, can type ../../.. to move up 3 directories
 ctrl + k, ctrl + s to open keyboard shortcuts
 
 setup to be able to save to git hub
