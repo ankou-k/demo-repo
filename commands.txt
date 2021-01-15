@@ -1,0 +1,33 @@
+in terminal
+the following commands are precedented by "git "
+"clone" followed by clone link from github - clones something to git
+"status" - see modified files (must first save modifications ctrl+k s, otherwise "no changes" will show up),
+    shows unstaged changes in red, staged changes in green
+"add" followed by file name - add files to the staging area (staging area/staged state = where the files are commited from)
+"commit -m "added commands.text" " - to save to locally, -m stands for message, must inculde message eg. "update README.md" (recognize this from github?)
+    can add a description by adding a second -m
+"push" - to push to github
+
+command notes:
+. can be used to indicate current directory (folder) so when using that, it means doing stuff to all the files in the directory
+"cd" - change directory, . for file in current file, .. to move out of current file into higher up file, can type ../../.. to move up 3 directories
+ctrl + k, ctrl + s to open keyboard shortcuts
+"--help" - list of commands
+"ls" - prints list of files and subdirectories in current directory, used to make sure in correct directory (can also use cd)
+"grep" - searches for files or keywords, might not be installed 
+"ssh-keygen" - creates ssh key that is used to upload to github, might not be installed
+"mkdir" - followed by directory name creates directory in current directory
+use \ to move between directories, ..\ to go back a directory
+"md" - followed by multiple directory names seperated by spaces to create multiple directories
+"rm" followed by file name - removes file
+"rm -r" - removes directories and subdirectories within them (-r for recursive)
+"cp" and "cp -r" - used to copy files and directories into other directories
+format: "cp filename directory-name" copies filename to directory-name
+"cat" - reads file and outputs it, have to give location of file
+ex to output contents of "wy.txt" in MyFiles -> cat .\MyFiles\wy.txt
+"clip" - puts stuff onto clipboard (windows command) 
+can copy current diretory info (listings) or copy text from file
+
+setup to be able to save to git hub
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
